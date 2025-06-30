@@ -13,7 +13,7 @@ const getSum = () => {
 
 	let totalVal=document.createElement('tr');
 	totalVal.innerHTML=`<td>Total Value</td>
-						<td>${total.toFixed(2)}</td>`;
+						<td id="ans">${total.toFixed(2)}</td>`;
 
 	const table=document.querySelector('table');
 	table.appendChild(totalVal);
